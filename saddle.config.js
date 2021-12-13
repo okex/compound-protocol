@@ -209,6 +209,28 @@ module.exports = {
         {file: "~/.ethereum/mainnet"}                        // Load from given file with contents as the private key (e.g. 0x...)
       ]
     },
+    exchain: {
+      providers: [
+        {env: "PROVIDER"},
+      ],
+      web3: {
+        gas: [
+          {env: "GAS"},
+          {default: "30000000"}
+        ],
+        gas_price: [
+          {env: "GAS_PRICE"},
+          {default: "45000000000"}
+        ],
+        options: {
+          transactionConfirmationBlocks: 1,
+          transactionBlockTimeout: 5
+        }
+      },
+      accounts: [
+        {env: "ACCOUNT"}
+      ]
+    },
   },
   get_network_file: (network) => {
     return null;

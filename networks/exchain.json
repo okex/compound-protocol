@@ -1,0 +1,14 @@
+{
+    "Contracts": {
+        "CErc20Delegate": "0x22c546fA176d9497eD14e9E23B9861FA129CFd6e",
+        "Comptroller": "0xE83E84b59578EdBbdBfFb13095Db8A87Ac8ba2C2",
+        "Unitroller": "0x24b80AcdD4758Cb425D416a875749D1A5C6d0b9F",
+        "WhitePaperInterestRateModel": "0x5723d766e67e83D15C5E8F04fA9E4F6cEf384466",
+        "SimplePriceOracle": "0x365e45c9ADcB24951c5223D9e9341CccF44a743b",
+        "Uni": "0x889a28339ead22C4670a16D090F42602e3f19c17",
+        "Timelock": "0x0f814555bc8eEeA1cC7F7Da285Bd721d4612D468",
+        "CErc20": "0x140063C4Fb1923C2ffe25cae53AB615d185d7a39",
+        "CErc20Delegator": "0x8b1153fAa57CB7A5B1235A99Bc36D3F81cE6163B",
+        "DeployCompound": "0x7FbF6757210e32d6AA7A790da896f144E19ABfaf"
+    }
+}
